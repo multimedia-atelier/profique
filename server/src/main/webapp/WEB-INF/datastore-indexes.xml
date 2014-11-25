@@ -1,0 +1,11 @@
+<!-- Indices written at Thu, 2 Oct 2014 15:57:23 CEST -->
+
+<datastore-indexes autoGenerate="true">
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="EventEntity" ancestor="false" source="manual">
+        <property name="deviceId" direction="asc"/>
+        <property name="timestamp" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
